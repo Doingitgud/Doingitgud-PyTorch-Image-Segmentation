@@ -1,1 +1,1 @@
-# Doingitgud-PyTorch-Image-Segmentation
+#PyTorch-Image-Segmentation

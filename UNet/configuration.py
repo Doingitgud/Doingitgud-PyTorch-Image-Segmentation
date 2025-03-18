@@ -1,6 +1,6 @@
-CSV_FILE = '/workspaces/Doingitgud-PyTorch-Image-Segmentation/Human-Segmentation-Dataset-master/train.csv'
+CSV_FILE = '/workspaces/PyTorch-Image-Segmentation/Human-Segmentation-Dataset-master/train.csv'
 
-DATA_DIR = '/workspaces/Doingitgud-PyTorch-Image-Segmentation/'
+DATA_DIR = '/workspaces/PyTorch-Image-Segmentation/'
 
 DEVICE = 'cpu'
 

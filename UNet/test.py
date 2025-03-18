@@ -5,7 +5,7 @@ from segmentation_model import *
 from train_and_Validation import *
 
 import sys
-sys.path.append('/workspaces/Doingitgud-PyTorch-Image-Segmentation/Human-Segmentation-Dataset-master')
+sys.path.append('/workspaces/PyTorch-Image-Segmentation/Human-Segmentation-Dataset-master')
 import torch
 import cv2
 
@@ -89,7 +89,7 @@ for i in range(EPOCHS):
 
 idx = 12
 
-model.load_state_dict(torch.load('/workspaces/Doingitgud-PyTorch-Image-Segmentation/Human-Segmentation-Dataset-master/best_model.pt'))
+model.load_state_dict(torch.load('/workspaces/PyTorch-Image-Segmentation/Human-Segmentation-Dataset-master/best_model.pt'))
 
 image, mask = validset[idx]
 
